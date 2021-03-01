@@ -23,3 +23,6 @@ comando para rodar o bootstrap
 
 comando para rodar reactstrap
 ### npm install --save reactstrap react react-dom
+
+
+### site desenvolvido em react e nodeJs
