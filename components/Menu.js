@@ -19,7 +19,13 @@ const Menu = (props) => {
     
     return (
         <div>
-      <Navbar color="primary" dark expand="md">
+            <style>
+                {`
+                .menu-custom{
+                  background-color: #041370      
+                }`}
+            </style>
+      <Navbar className="menu-custom" dark expand="md">
           <Container>
         <NavbarBrand href="/">Motin</NavbarBrand>
         <NavbarToggler onClick={toggle} />
