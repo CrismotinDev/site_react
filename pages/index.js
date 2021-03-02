@@ -5,6 +5,10 @@ import Rodape from '../components/Rodape';
 import Head from 'next/head';
 
 import { Jumbotron, Container } from 'reactstrap';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(fas);
 
 
 
@@ -15,6 +19,7 @@ function Home() {
         <div>
             <Head>
                 <title>Home - Celke</title>
+                <meta nane="description" content="Site de ...sobre ...." />
             </Head>
             <Menu />
 
@@ -64,7 +69,8 @@ function Home() {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="rounded-circle circulo centralizar">
-                                A
+                            <FontAwesomeIcon icon="laptop-code" />
+                            
                             </div>
                             <h2 className="mt-4 mb-4">Serviço Um</h2>
                             <p>
@@ -73,7 +79,8 @@ function Home() {
                         </div>
                         <div className="col-md-4">
                             <div className="rounded-circle circulo centralizar">
-                                B
+                            <FontAwesomeIcon icon="mobile-alt" />
+                            
                              </div>
                              <h2 className="mt-4 md-4">Serviço Dois</h2>
                              <p>
@@ -82,7 +89,8 @@ function Home() {
                         </div>
                         <div className="col-md-4">
                             <div className="rounded-circle circulo centralizar">
-                                C
+                            <FontAwesomeIcon icon="network-wired" />
+                            
                         </div>
                         <h2 className="mt-4 md-4">Serviço três</h2>
                         <p>

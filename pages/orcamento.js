@@ -11,6 +11,7 @@ function Orcamento() {
         <div>
             <Head>
                 <title>Orçamento - Celke</title>
+                <meta nane="description" content="Solicitar orcamento para..."/>
             </Head>
             <Menu />
             <Jumbotron fluid className="descr-top">
